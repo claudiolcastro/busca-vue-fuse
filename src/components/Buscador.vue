@@ -4,7 +4,7 @@
     <input type="text" name="buscador" v-model="termo">
     <div class="resultado" v-if="listaAvioesEncontrados">
       <ul>
-        <li v-for="aviao in listaAvioesEncontrados">
+        <li v-for="(index, aviao) in listaAvioesEncontrados" :key="index">
           <b>{{aviao.aviao_nome}}</b>
           <a :href="aviao.aviao_url">Veja mais sobre essa aeronave</a>
         </li>

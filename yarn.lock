@@ -1836,6 +1836,10 @@ core-js@^2.5.7, core-js@^2.6.1:
   version "2.6.1"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.6.1.tgz#87416ae817de957a3f249b3b5ca475d4aaed6042"
 
+core-js@^2.6.5:
+  version "2.6.11"
+  resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.6.11.tgz#38831469f9922bded8ee21c9dc46985e0399308c"
+
 core-util-is@1.0.2, core-util-is@~1.0.0:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/core-util-is/-/core-util-is-1.0.2.tgz#b5fd54220aa2bc5ab57aab7140c940754503c1a7"
@@ -3034,6 +3038,10 @@ function-bind@^1.0.2, function-bind@^1.1.1:
 functional-red-black-tree@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/functional-red-black-tree/-/functional-red-black-tree-1.0.1.tgz#1b0ab3bd553b2a0d6399d29c0e3ea0b252078327"
+
+fuse.js@^3.3.0:
+  version "3.6.1"
+  resolved "https://registry.yarnpkg.com/fuse.js/-/fuse.js-3.6.1.tgz#7de85fdd6e1b3377c23ce010892656385fd9b10c"
 
 gauge@~2.7.3:
   version "2.7.4"
@@ -6484,6 +6492,13 @@ vue-eslint-parser@^4.0.2:
     esquery "^1.0.1"
     lodash "^4.17.11"
 
+vue-fake-input@^1.0.1:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/vue-fake-input/-/vue-fake-input-1.0.5.tgz#b95f218bb26b879fbe5b4cde6143143c52f3be01"
+  dependencies:
+    core-js "^2.6.5"
+    vue "^2.6.10"
+
 vue-hot-reload-api@^2.3.0:
   version "2.3.1"
   resolved "https://registry.yarnpkg.com/vue-hot-reload-api/-/vue-hot-reload-api-2.3.1.tgz#b2d3d95402a811602380783ea4f566eb875569a2"
@@ -6519,6 +6534,10 @@ vue-template-es2015-compiler@^1.6.0:
 vue@^2.5.21:
   version "2.5.21"
   resolved "https://registry.yarnpkg.com/vue/-/vue-2.5.21.tgz#3d33dcd03bb813912ce894a8303ab553699c4a85"
+
+vue@^2.6.10:
+  version "2.6.11"
+  resolved "https://registry.yarnpkg.com/vue/-/vue-2.6.11.tgz#76594d877d4b12234406e84e35275c6d514125c5"
 
 watchpack@^1.5.0:
   version "1.6.0"
